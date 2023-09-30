@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Poppins:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gp{
+    background-image: url(https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-bg.png);
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    margin: 90px 0 0 430px;
+    z-index: -1 ;
+}
+body{
+    margin-left:6% ;
+    font-family:'Nunito Sans';
+
+}
+.header{
+    display: flex;
+    justify-content: end;
+}
+
+h1{
+    font-size: 40px;
+    font-weight:1400;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+p span{
+    color: gray;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+table{
+    margin: 30px 0 ;
+    border-collapse: collapse;
+    
+
+}
+table tr td, th{
+    font-size:16px;
+    padding: 5px 25px;
+    
+}
+thead{
+    background-color: #F05033;
+    color: white;
+}
+table tr td{
+    background-color: white;
+    border-bottom: 1px solid rgb(211, 208, 208);
+    text-decoration: none;
+}
+.color{
+    color: rgb(139, 137, 137);
+}
+#Batsman td{
+    font-weight: 700;
+}
+thead th{
+    margin-left: 50px;
+}
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
